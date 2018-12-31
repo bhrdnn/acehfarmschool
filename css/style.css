@@ -110,8 +110,21 @@ section#news h6{
 	color: #000000;
 }
 
-section#news span{
+section#news .text-heading{
 	color: #1db923;
+}
+
+section#news .eye{
+	padding-left: 1px;
+}
+
+section#news .calendar{
+	padding: 5px 0 0 2px;
+}
+
+section#news i{
+	color: #7da87b;
+	font-style: unset;
 }
 
 
@@ -268,7 +281,6 @@ section#contact{
 
 section#contact .card{
 	border:none;
-	background: #f2f6f2;
 }
 
 section#contact h3{
