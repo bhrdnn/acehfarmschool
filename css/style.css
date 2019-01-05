@@ -130,7 +130,7 @@ section#news a{
 section#news h2{
 	text-transform: uppercase;
     font-family: 'fredoka one';
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 section#news h6{
@@ -238,8 +238,10 @@ section#recent-client{
 	background: #f1f1f1;
 }
 section#recent-client .card{
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	background: #7da87b;
+	box-shadow: 0 5px 30px -5px #5a4f4f3b;
+	text-align: center;
 }
 
 section#recent-client img{
@@ -255,18 +257,18 @@ section#recent-client h2{
 	text-align: center;
 }
 
-section#recent-client h3{
+section#recent-client h4{
 	overflow: hidden;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: "fredoka one";
-	margin: 20px;
+	margin: 15px;
 }
 
 section#recent-client p{
 	font-family: "Google Sans", sans-serif;
 	color: whitesmoke;
-	padding: 25px;
+	padding: 15px;
 }
 
 section#recent-client span{
