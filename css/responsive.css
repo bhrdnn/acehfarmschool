@@ -1,0 +1,170 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 320px) {	
+	header {
+		max-height: 100vh;	
+	}
+
+	.text-display {
+		font-size: 25px;
+    	line-height: 35px;
+    	font-weight: 600;
+	}
+
+	.display button {
+		font-size: 13px;
+	}
+
+	.display span {
+		font-size: 13px;
+	}
+
+	section#bg {
+		background-position: unset;
+	}
+
+	/*about*/
+	section#about {
+		padding: 50px 0 50px 0;
+	}
+
+	section#about h2 {
+		font-size: 20px;
+    	margin: 20px 0 20px 0;
+	}
+
+	section#about .container {
+		padding: 0 15px;
+	}
+
+	section#about .card {
+		padding: 0;
+		margin-right: 0;
+		box-shadow: 0px 30px 65px -20px #5a4f4f3b;
+	}
+
+	section#about p {
+		padding: 15px;
+    	font-size: 13px;
+	}
+
+	/*news*/
+	section#news {
+		padding: 50px 0 50px 0;
+	}
+
+	section#news h2 {
+		font-size: 20px;
+    	margin: 20px 0 20px 0;
+	}
+
+	section#news h6 {
+		font-size: 14px;
+    	margin-top: 10px;
+	}
+
+	section#news p {
+		font-size: 13px;
+    	margin-top: -3px;
+	}
+
+	section#news span{
+		font-size: 13px;
+		margin-top: -5px;
+	}
+
+	/*services*/
+	section#services h2 {
+		font-size: 20px;
+    	margin: 50px;
+	} 
+
+	section#services i {
+		font-size: 30px;
+	}
+
+	section#services h5 {
+		font-size: 15px;
+	}
+
+	section#services p {
+		line-height: 25px;
+    	font-size: 13px;
+	}
+
+	/*the-team*/
+	section#the-team h2 {
+		font-size: 20px;
+	}
+
+	section#the-team img {
+    	width: 100px;
+    	height: 100px;
+    	border-radius: 50%;
+    	margin: auto;
+    	margin-top: 25px;
+    	margin-bottom: 20px;
+    }
+
+    section#the-team .tagname h5 {
+    	font-size: 15px;
+    }
+
+    section#the-team .title {
+    	font-size: 14px;
+    } 
+
+    section#the-team .text {
+    	font-size: 13px;
+    }
+
+    /*recent-client*/
+    section#recent-client h2 {
+    	font-size: 20px;
+    }
+
+    section#recent-client h5 {
+    	font-size: 15px;
+    } 
+
+    section#recent-client p {
+    	font-size: 13px;
+    }
+
+    /*testimonials*/
+    section#testimonials h2 {
+    	font-size: 20px;
+    }
+
+    section#testimonials h5 {
+    	font-size: 15px;
+    } 
+
+    section#testimonials p {
+    	padding: 0 10px;
+    	font-size: 13px;
+    } 
+} 
+
+@media only screen and (max-width: 600px) {
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+}
