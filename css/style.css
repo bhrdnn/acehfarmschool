@@ -109,7 +109,6 @@ section#about-us p{
 	color: whitesmoke;
 }
 
-
 /*----------News----------*/
 section#news{
 	padding: 100px 0 100px 0;
@@ -145,7 +144,6 @@ section#news .text-heading{
 
 section#news i{
 	color: #7da87b;
-	font-style: unset;
 }
 
 /*----------Our-Services----------*/
@@ -241,14 +239,12 @@ section#recent-client{
 section#recent-client .card{
 	margin-bottom: 50px;
 	text-align: center;
-	background: #5b845961;
 	border: none;
 	box-shadow: 0 5px 30px -5px #5a4f4f3b;
 }
 
 section#recent-client img{
-	width: 90%;
-	margin: auto;
+	width: 100%;
 }
 
 section#recent-client h2{
@@ -268,7 +264,6 @@ section#recent-client h5{
 
 section#recent-client p{
 	font-family: "Google Sans", sans-serif;
-	color: whitesmoke;
 	padding: 15px;
 }
 
@@ -412,7 +407,8 @@ section#contact .input-grup input{
   	border-radius : 30px;
   	outline : none;
   	background : #f1f1f1;
-  	color : #555555
+  	color : #555555;
+  	font-family: "Google Sans", sans-serif;
 }
 
 section#contact .input-grup i{

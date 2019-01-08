@@ -28,7 +28,7 @@
 	}
 
 	section#about h2 {
-		font-size: 20px;
+		font-size: 25px;
     	margin: 20px 0 20px 0;
 	}
 
@@ -53,7 +53,7 @@
 	}
 
 	section#news h2 {
-		font-size: 20px;
+		font-size: 25px;
     	margin: 20px 0 20px 0;
 	}
 
@@ -67,15 +67,14 @@
     	margin-top: -3px;
 	}
 
-	section#news span{
+	section#news .writter{
 		font-size: 13px;
 		margin-top: -5px;
 	}
 
 	/*services*/
 	section#services h2 {
-		font-size: 20px;
-    	margin: 50px;
+		font-size: 25px;
 	} 
 
 	section#services i {
@@ -93,7 +92,7 @@
 
 	/*the-team*/
 	section#the-team h2 {
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	section#the-team img {
@@ -119,7 +118,7 @@
 
     /*recent-client*/
     section#recent-client h2 {
-    	font-size: 20px;
+    	font-size: 25px;
     }
 
     section#recent-client h5 {
@@ -132,7 +131,7 @@
 
     /*testimonials*/
     section#testimonials h2 {
-    	font-size: 20px;
+    	font-size: 25px;
     }
 
     section#testimonials h5 {
@@ -143,6 +142,47 @@
     	padding: 0 10px;
     	font-size: 13px;
     } 
+
+    /*partners*/
+    section#partners h2 {
+    	font-size: 25px;
+    }
+
+    section#partners .card {
+    	padding: 20px;
+    	margin-bottom: 30px;
+    }
+
+    /*contact-us*/
+    section#contact {
+    	padding: 100px 0 100px 0;
+    }
+
+    section#contact h3 {
+    	margin-bottom: 35px;
+    	font-size: 25px;
+    }
+
+    section#contact .input-grup {
+    	margin-bottom: -20px;
+    }
+
+    section#contact .input-grup input {
+    	font-size: 14px;
+    }
+
+    section#contact .contact-form-text {
+    	font-size: 14px;
+    }
+
+    section#contact .btn {
+    	font-size: 14px;
+    }
+
+    /*footer*/
+    footer p {
+    	font-size: 13px;
+    }
 } 
 
 @media only screen and (max-width: 600px) {
