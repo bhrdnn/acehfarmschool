@@ -18,8 +18,29 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
 	<!-- js -->
 	<script type="text/javascript" src="js/aos.js"></script>
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+
+
+
+<script>
+	$(document).ready(function(){
+		$(".btn-hamburger .fa-times").hide();
+
+		$(".btn-hamburger .fa-bars").click(function(){
+			$(this).hide();
+			$(".btn-hamburger .fa-times").show();
+			$(".mobile ul").addClass("active");
+		});
+
+		$(".btn-hamburger .fa-times").click(function(){
+			$(this).hide();
+			$(".btn-hamburger .fa-bars").show();
+			$(".mobile ul").removeClass("active");
+		});
+	});	
+</script>
+	
 </head>
 <body>
 	<header>
@@ -31,7 +52,21 @@
 					</div>
 				</div>
 				<div class="col-md-6">
-					<nav>
+					<nav class="desktop">
+						<ul>
+							<a href="#"><li>Home</li></a>
+							<a href="#"><li>Gallery</li></a>
+							<a href="#"><li>Product</li></a>
+							<a href="#"><li>About</li></a>
+						</ul>
+					</nav>
+
+					<nav class="mobile">
+						<div class="btn-hamburger">
+							<i class="fa fa-bars"></i>
+							<i class="fa fa-times"></i>	
+						</div>
+
 						<ul>
 							<a href="#"><li>Home</li></a>
 							<a href="#"><li>Gallery</li></a>
