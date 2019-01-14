@@ -89,8 +89,11 @@ header{
 .text-display{
 	font-size: 45px;
     line-height: 66px;
+    font-weight: 600;
 }
-
+header span{
+	font-size: 17px;
+}
 .btn-circle{
 	border-radius: 7px !important;
 }
@@ -159,6 +162,7 @@ section#about-us .card{
 section#about-us p{
 	font-family: "Google Sans", sans-serif;
 	line-height: 35px;
+	font-size: 20px;
 	color: whitesmoke;
 }
 
@@ -469,7 +473,7 @@ section#contact .input-grup i{
   position : absolute;
   top : 33px;
   left : 15px;
-  color : #3333334f
+  color: #28a745;
 }
 
 section#contact span{
@@ -483,7 +487,10 @@ section#contact .input-grup input:focus{
 section#contact textarea:focus{
 	background:#e8e3e347;
 }
-
+/*----------Maps----------*/
+section#maps {
+	margin-bottom: -6px;
+}
 /*----------FOOTER----------*/
 footer{
 	width: 100%;
