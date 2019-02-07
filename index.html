@@ -32,8 +32,8 @@
 				<div class="col-md-6">
 					<nav class="desktop">
 						<ul>
-							<a href="#"><li>Home</li></a>
-							<a href="#"><li>Gallery</li></a>
+							<a href="index.html"><li>Home</li></a>
+							<a href="gallery.html"><li>Gallery</li></a>
 							<a href="#"><li>Product</li></a>
 							<a href="#"><li>About</li></a>
 						</ul>
@@ -170,32 +170,32 @@
 						<h2>\ Our Services /</h2>
 					</div>					
 					<div class="col-md-4 col-sm-6 box">
-						<i class="fas fa-apple-alt"></i>
+						<img src="img/medical.png">
 						<h5>Service Name</h5>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 					<div class="col-md-4 col-sm-6 box">
-						<i class="fas fa-apple-alt"></i>
+						<img src="img/sheep1.png">
 						<h5>Service Name</h5>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 					<div class="col-md-4 col-sm-6 box">
-						<i class="fas fa-apple-alt"></i>
+						<img src="img/brain5.png">
 						<h5>Service Name</h5>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 					<div class="col-md-4 col-sm-6 box">
-						<i class="fas fa-apple-alt"></i>
+						<img src="img/seed1.png">
 						<h5>Service Name</h5>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 					<div class="col-md-4 col-sm-6 box">
-						<i class="fas fa-apple-alt"></i>
+						<img src="img/house.png">
 						<h5>Service Name</h5>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 					<div class="col-md-4 col-sm-6 box">
-						<i class="fas fa-apple-alt"></i>
+						<img src="img/produce.png">
 						<h5>Service Name</h5>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
@@ -210,46 +210,36 @@
 					<div class="col-md-12">
 						<h2>\ Meet the Team /</h2>
 					</div>
-					<div class="col-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-easing="ease-in-out">
+					<div class="col-12 col-md-4" data-aos="zoom-in-up" data-aos-easing="ease-in-out">
 						<div class="card">
 							<div>
 								<img src="img/team2.jpg">
 							</div>
 							<div class="tagname">
-								<h5>Nurwahidi</h5>
+								<h5>Drh. Nurwahidi</h5>
 								<p class="title">CEO & Founder</p>
 								<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-delay="100" data-aos-easing="ease-in-out">
+					<div class="col-12 col-md-4" data-aos="zoom-in-up" data-aos-delay="100" data-aos-easing="ease-in-out">
 						<div class="card">
 								<img src="img/team2.jpg">
 							<div class="tagname">
-								<h5>Nurwahidi</h5>
+								<h5>Suhendra</h5>
+								<p class="title">Co-Founder</p>
+								<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-4" data-aos="zoom-in-up" data-aos-delay="200" data-aos-easing="ease-in-out">
+						<div class="card">
+								<img src="img/team2.jpg">
+							<div class="tagname">
+								<h5>Baharuddin</h5>
 								<p class="title">Web Designer</p>
-								<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-delay="200" data-aos-easing="ease-in-out">
-						<div class="card">
-								<img src="img/team2.jpg">
-							<div class="tagname">
-								<h5>Nurwahidi</h5>
-								<p class="title">CEO & Founder</p>
-								<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-delay="300" data-aos-easing="ease-in-out">
-						<div class="card">
-								<img src="img/team2.jpg">
-							<div class="tagname">
-								<h5>Nurwahidi</h5>
-								<p class="title">CEO & Founder</p>
 								<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 							</div>
 						</div>
@@ -258,7 +248,7 @@
 			</div>
 		</section>
 
-		<section id="recent-client">
+		<!-- <section id="recent-client">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -287,7 +277,7 @@
 					</div>					
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<section id="testimonials">
 			<div class="container">
@@ -418,36 +408,51 @@
 			</div>
 		</footer>
 
-<script>
-  AOS.init();
-</script>
+<!-- <script>
+  
+</script> -->
 
 <script>
-	$(document).ready(function(){
-		$(".btn-hamburger .fa-times").hide();
+	 //animasi the-team
+	 	AOS.init();
 
-		$(".btn-hamburger .fa-bars").click(function(){
-			$(this).hide();
-			$(".btn-hamburger .fa-times").show();
-			$(".mobile ul").addClass("active");
+	 //responsive menu
+		$(document).ready(function(){
+			$(".btn-hamburger .fa-times").hide();
+
+			$(".btn-hamburger .fa-bars").click(function(){
+				$(this).hide();
+				$(".btn-hamburger .fa-times").show();
+				$(".mobile ul").addClass("active");
+			});
+
+			$(".btn-hamburger .fa-times").click(function(){
+				$(this).hide();
+				$(".btn-hamburger .fa-bars").show();
+				$(".mobile ul").removeClass("active");
+			});
 		});
 
-		$(".btn-hamburger .fa-times").click(function(){
-			$(this).hide();
-			$(".btn-hamburger .fa-bars").show();
-			$(".mobile ul").removeClass("active");
-		});
-	});	
-</script>
+	 //scroll menu
+	 	// $(document).ready(function(){
+	 	// 	$(".navshow").hide();
+	 	// 	zero=0;
+	 	// 	$(window).on('scroll', function(){
+	 	// 		$('.navscroll').hide();
+	 	// 		$('.navshow').show($(window).scrollTop() > zero);
+	 	// 		zero = $(window).scrollTop();
+	 	// 	});
+	 	// });
+	 	
 
-<script>
-	zero = 0;
-	$(document).ready(function(){
-		$(window).on('scroll', function(){
-			$('.navscroll').toggleClass('hide', $(window).scrollTop() > zero);
-				zero = $(window).scrollTop();
-		});
-	});
+		$(document).ready(function(){
+			zero = 0;
+			$(window).on('scroll', function(){
+				$('.navscroll').toggleClass('hide', $(window).scrollTop() > zero);
+					zero = $(window).scrollTop()
+					});
+			});
+
 </script>
 
 </body>

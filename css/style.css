@@ -86,6 +86,10 @@ header{
 	z-index: 999;
 }
 
+header#space{
+	background-color: #7da87b;
+}
+
 header .hide{
 	transform: translateY(-150%);
 	transition: 0.6s;
@@ -179,7 +183,7 @@ section#about-us p{
 
 /*----------News----------*/
 section#news{
-	padding: 100px 0 100px 0;
+	padding: 50px 0 50px 0;
 }
 
 section#news .card{
@@ -226,6 +230,10 @@ section#services .box{
     padding: 50px;
     box-sizing: border-box;
     font-family: "Google Sans", sans-serif;
+}
+
+section#services img{
+	width: 40px;
 }
 
 section#services h2{ 
