@@ -232,8 +232,30 @@ section#services .box{
     font-family: "Google Sans", sans-serif;
 }
 
-section#services img{
+section#services img.medis{
+	width: 44px;
+}
+
+section#services img.aqiqah{
 	width: 40px;
+}
+
+section#services img.pelatihan{
+	width: 40px;
+	margin-bottom: 5px;
+}
+
+section#services img.bibit{
+	width: 40px;
+}
+
+section#services img.karantina{
+	width: 48px;
+    margin-bottom: 5px;
+}
+
+section#services img.pakan{
+	width: 41px;
 }
 
 section#services h2{ 
@@ -306,43 +328,6 @@ section#the-team .title{
 
 section#the-team .text{
 	padding: 0 20px 0 20px;
-}
-
-/*----------Recent-Client----------*/
-section#recent-client{
-	padding: 100px 0 100px 0;
-	background: #7da87b;
-}
-
-section#recent-client .card{
-	margin-bottom: 50px;
-	text-align: center;
-	border: none;
-	box-shadow: 0 5px 30px -5px #5a4f4f3b;
-}
-
-section#recent-client img{
-	width: 100%;
-}
-
-section#recent-client h2{
-	overflow: hidden;
-	margin-bottom: 50px;
-	text-transform: uppercase;
-	font-family: "fredoka one";
-	text-align: center;
-}
-
-section#recent-client h5{
-	overflow: hidden;
-	text-transform: uppercase;
-	font-family: "fredoka one";
-	margin: 15px;
-}
-
-section#recent-client p{
-	font-family: "Google Sans", sans-serif;
-	padding: 15px;
 }
 
 /*----------TESTIMONIALS----------*/
