@@ -13,7 +13,7 @@
 }
 
 .logo img{
-	width: 9%;
+	width: 35%;
 }
 
 .desktop li{
@@ -89,17 +89,17 @@ header{
 }
 
 header#space{
-	background-color: #7da87b;
+	background-color: #252549;
 }
 
 header.hide{
 	transform: translateY(-150%);
-	transition: 0.6s;
+	transition: 0.4s;
 }
 
 header.show{
-	background-color: #000000;
-	transition: 0.4s;
+	background-color: #252549;
+	transition: 0.3s;
 }
 
 .display{
