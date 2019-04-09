@@ -1,22 +1,23 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow-x:hidden; 
+	overflow-x: hidden;
 }
 
 @import url('../font/GoogleSans-Regular.ttf');
+
 /*----------HEADER----------*/
 .logo {
 	position: relative;
-    z-index: 100;
+	z-index: 100;
 }
 
-.logo img{
+.logo img {
 	width: 33%;
 }
 
-.desktop li{
+.desktop li {
 	display: inline-block;
 	padding: 15px 38px;
 	letter-spacing: 1px;
@@ -26,18 +27,19 @@
 	color: #f8f9fa;
 }
 
-.desktop ul{
+.desktop ul {
 	margin: 0px !important;
 }
 
 .mobile {
 	display: none;
 }
+
 .mobile a {
 	text-decoration: none !important;
 }
 
-.mobile li{
+.mobile li {
 	padding: 20px 40px;
 	letter-spacing: 1px;
 	font-size: 18px;
@@ -53,15 +55,15 @@
 
 .mobile ul.active {
 	display: block;
-    position: fixed;
-    background: #7da87bed;
-    width: 100%;
-    height: 100%;
-    z-index: 99;
-    top: 0;
-    left: 0;
-    padding-top: 100px;
-    text-decoration: none;
+	position: fixed;
+	background: #7da87bed;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	padding-top: 100px;
+	text-decoration: none;
 }
 
 .btn-hamburger {
@@ -72,14 +74,14 @@
 .btn-hamburger .fa-bars,
 .btn-hamburger .fa-times {
 	position: fixed;
-    right: 15px;
-    top: 20px;
-    font-size: 25px;
-    color: #ffffff;
-    cursor: pointer;
+	right: 15px;
+	top: 20px;
+	font-size: 25px;
+	color: #ffffff;
+	cursor: pointer;
 }
 
-header{
+header {
 	padding-top: 15px;
 	padding-bottom: 10px;
 	position: fixed;
@@ -88,35 +90,37 @@ header{
 	transition: 0.4s;
 }
 
-header#galeri, #tentang{
+header#pages {
 	background-color: #252549;
 }
 
-header.hide{
+header.hide {
 	transform: translateY(-150%);
 	transition: 0.4s;
 }
 
-header.show{
+header.show {
 	background-color: #252549;
 	transition: 0.3s;
 }
 
-.display{
-	padding-top: 180px;	
+.display {
+	padding-top: 180px;
 	font-family: 'K2D';
 	color: #f8f9fa;
 }
 
-.text-display{
+.text-display {
 	font-size: 45px;
-    line-height: 66px;
-    font-weight: 600;
+	line-height: 66px;
+	font-weight: 600;
 }
-header span{
+
+header span {
 	font-size: 17px;
 }
-.btn-circle{
+
+.btn-circle {
 	border-radius: 7px !important;
 }
 
@@ -133,55 +137,55 @@ section#about {
 	padding: 50px 0 50px 0;
 }
 
-section#about .container{
+section#about .container {
 	padding: 50px 105px;
 }
 
-section#about .card{
+section#about .card {
 	padding: 20px 150px 20px 20px;
-    box-shadow: 0px 45px 65px -20px #5a4f4f69;
+	box-shadow: 0px 45px 65px -20px #5a4f4f69;
 	background-color: #7da87b;
 	margin-bottom: 90px;
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
-section#about h2{
+section#about h2 {
 	overflow: hidden;
 	font-family: "fredoka one";
 	text-transform: uppercase;
 	margin-bottom: 50px;
 }
 
-section#about span{
+section#about span {
 	color: #1db923;
 }
 
-section#about p{
+section#about p {
 	padding: 30px;
-    font-size: 25px;
-    color: #ffffff;
+	font-size: 25px;
+	color: #ffffff;
 }
 
 /*----------About Us----------*/
-section#about-us{
+section#about-us {
 	background: url(../img/bg5.png) no-repeat center;
 	background-size: cover;
 	padding: 50px 0 100px 0;
 }
 
-section#about-us h2{
+section#about-us h2 {
 	overflow: hidden;
 	font-family: "fredoka one";
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
 
-section#about-us .card{
+section#about-us .card {
 	border: none;
 	background: none;
 }
 
-section#about-us p{
+section#about-us p {
 	font-family: "Google Sans", sans-serif;
 	line-height: 35px;
 	font-size: 20px;
@@ -189,104 +193,104 @@ section#about-us p{
 }
 
 /*----------News----------*/
-section#news{
+section#news {
 	padding: 50px 0 50px 0;
 }
 
-section#news .card{
+section#news .card {
 	border: none;
 	margin-bottom: 50px;
 }
 
-section#news img{
+section#news img {
 	width: 100%;
 }
 
-section#news a{
+section#news a {
 	text-decoration: none;
 }
 
-section#news h2{
+section#news h2 {
 	text-transform: uppercase;
-    font-family: 'fredoka one';
-    margin-bottom: 30px;
+	font-family: 'fredoka one';
+	margin-bottom: 30px;
 }
 
-section#news h6{
+section#news h6 {
 	overflow: hidden;
 	color: #000000;
 }
 
-section#news .text-heading{
+section#news .text-heading {
 	color: #1db923;
 }
 
-section#news i{
+section#news i {
 	color: #7da87b;
 	font-style: normal;
 }
 
 /*----------Our-Services----------*/
-section#services{
+section#services {
 	background-color: #7da87b;
 	text-align: center;
 }
 
-section#services .box{
-    display: inline-block;
-    padding: 50px;
-    box-sizing: border-box;
-    font-family: "Google Sans", sans-serif;
+section#services .box {
+	display: inline-block;
+	padding: 50px;
+	box-sizing: border-box;
+	font-family: "Google Sans", sans-serif;
 }
 
-section#services img{
+section#services img {
 	width: 55px;
 }
 
-section#services h2{ 
+section#services h2 {
 	overflow: hidden;
 	text-transform: uppercase;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-family: "fredoka one";
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: "fredoka one";
 }
 
-section#services i{
+section#services i {
 	font-size: 35px;
 	overflow: hidden;
 }
 
-section#services h5{
+section#services h5 {
 	overflow: hidden;
-    margin-top: 20px;
-    font-weight: 600;
+	margin-top: 20px;
+	font-weight: 600;
 }
 
-section#services p{
+section#services p {
 	color: whitesmoke;
 	line-height: 30px;
 }
 
 /*----------TESTIMONIALS----------*/
-section#testimonials{
+section#testimonials {
 	padding: 100px 0 100px 0;
 	background-color: #f1f1f1;
 	text-align: center;
 }
 
-section#testimonials .card{
+section#testimonials .card {
 	margin-bottom: 50px;
-    box-shadow: 0 5px 30px -5px #5a4f4f3b;
+	box-shadow: 0 5px 30px -5px #5a4f4f3b;
 }
 
-section#testimonials h2{
+section#testimonials h2 {
 	overflow: hidden;
 	margin-bottom: 50px;
 	text-transform: uppercase;
 	font-family: "fredoka one";
 }
 
-section#testimonials img{
+section#testimonials img {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -294,67 +298,68 @@ section#testimonials img{
 	margin-top: 30px;
 }
 
-section#testimonials h5{
+section#testimonials h5 {
 	overflow: hidden;
 	margin-top: 20px;
 	font-weight: 600;
 }
 
-section#testimonials .info{
+section#testimonials .info {
 	margin-bottom: 60px;
 	font-family: "Google Sans", sans-serif;
 }
 
-section#testimonials .title{
+section#testimonials .title {
 	color: grey;
 	margin-bottom: 20px;
 }
 
-section#testimonials p{
+section#testimonials p {
 	padding: 0 10px;
 }
+
 /*----------PARTNERS----------*/
-section#partners{
+section#partners {
 	padding: 100px 0 100px 0;
 	text-align: center;
 }
 
-section#partners .card{
+section#partners .card {
 	background-color: #f1f1f1;
 	box-sizing: border-box;
-    border: none;
-    filter: saturate(0);
-    padding: 40px;
-    margin-bottom: 15px;
+	border: none;
+	filter: saturate(0);
+	padding: 40px;
+	margin-bottom: 15px;
 }
 
-section#partners .card:hover{
+section#partners .card:hover {
 	filter: unset;
 }
 
-section#partners h2{
+section#partners h2 {
 	overflow: hidden;
 	margin-bottom: 50px;
 	text-transform: uppercase;
 	font-family: "fredoka one";
 }
 
-section#partners img{
+section#partners img {
 	width: 100%;
 }
 
 /*----------CONTACT US----------*/
-section#contact{
+section#contact {
 	background: url(../img/bg3.png) no-repeat center;
-    background-size: cover;
-    padding: 170px 0 115px;
+	background-size: cover;
+	padding: 170px 0 115px;
 }
 
-section#contact .card{
-	border:none;
+section#contact .card {
+	border: none;
 }
 
-section#contact h3{
+section#contact h3 {
 	overflow: hidden;
 	text-align: center;
 	margin-bottom: 50px;
@@ -362,142 +367,145 @@ section#contact h3{
 	font-family: "fredoka one";
 }
 
-section#contact span{
+section#contact span {
 	color: #1db923;
 }
 
-section#contact .contact-form{
+section#contact .contact-form {
 	width: 100%;
 	margin: auto;
 	padding: 20px;
 	overflow: hidden;
 }
 
-section#contact .contact-form-text{
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 16px 0;
-    border: 0;
-    padding: 20px 40px;
-    outline: none;
-    background-color: #f1f1f1;
-    color: #555555;
-    font-family: "Google Sans", sans-serif;
-	
+section#contact .contact-form-text {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	padding: 20px 40px;
+	outline: none;
+	background-color: #f1f1f1;
+	color: #555555;
+	font-family: "Google Sans", sans-serif;
+
 }
 
-section#contact textarea{
+section#contact textarea {
 	resize: none;
 	height: 120px;
 	border-radius: 30px;
 }
 
-section#contact .btn{
+section#contact .btn {
 	float: right;
 	border-radius: 30px;
 }
 
-section#contact .input-grup{
+section#contact .input-grup {
 	position: relative;
 	margin-bottom: -15px;
 }
 
-section#contact .input-grup input{
-	padding : 13px 20px;
-  	text-indent : 25px;
-  	min-width : 100px;
-  	width : 100%;
-  	border-radius : 30px;
-  	outline : none;
-  	background : #f1f1f1;
-  	color : #555555;
-  	font-family: "Google Sans", sans-serif;
+section#contact .input-grup input {
+	padding: 13px 20px;
+	text-indent: 25px;
+	min-width: 100px;
+	width: 100%;
+	border-radius: 30px;
+	outline: none;
+	background: #f1f1f1;
+	color: #555555;
+	font-family: "Google Sans", sans-serif;
 }
 
-section#contact .input-grup i{
-  position : absolute;
-  top : 32px;
-  left : 15px;
-  color: #28a745;
+section#contact .input-grup i {
+	position: absolute;
+	top: 32px;
+	left: 15px;
+	color: #28a745;
 }
 
-section#contact span{
+section#contact span {
 	color: #1db923;
 }
 
-section#contact .input-grup input:focus{
-	background:#e8e3e347;
+section#contact .input-grup input:focus {
+	background: #e8e3e347;
 }
 
-section#contact textarea:focus{
-	background:#e8e3e347;
+section#contact textarea:focus {
+	background: #e8e3e347;
 }
+
 /*----------Maps----------*/
 section#maps {
 	margin-bottom: -6px;
 }
+
 /*----------FOOTER----------*/
-footer{
+footer {
 	width: 100%;
 	background-color: #5b8459;
 	color: white;
 	font-family: "Google Sans", sans-serif;
 }
 
-footer .box{
+footer .box {
 	display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin: 5px;
-    background: #f1f1f1;
-    border-radius: 30%;
-    color: #5b8459;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 5px 15px -5px #00000070;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	background: #f1f1f1;
+	border-radius: 30%;
+	color: #5b8459;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 5px 15px -5px #00000070;
 }
 
-footer .box i{
+footer .box i {
 	line-height: 40px;
-    font-size: 18px;
-    transition: 0.2s linear;
+	font-size: 18px;
+	transition: 0.2s linear;
 }
 
-footer .sosmed{
+footer .sosmed {
 	margin: 30px;
 }
 
-footer .middle{
+footer .middle {
 	text-align: center;
 }
 
-footer i{
+footer i {
 	font-size: 12px;
 	margin: 0 1px;
 	overflow: hidden;
 }
 
-footer span{
+footer span {
 	color: #41d061c7;
 }
 
-footer .box:hover i{
+footer .box:hover i {
 	transform: scale(1.2);
 	color: #f1f1f1;
 }
 
-footer .box-ig::before{
+footer .box-ig::before {
 	content: "";
 	position: absolute;
 	width: 120%;
 	height: 120%;
-	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 	transform: rotate(45deg);
 	left: -110%;
 	top: 90%;
 }
-footer .box-yt::before{
+
+footer .box-yt::before {
 	content: "";
 	position: absolute;
 	width: 120%;
@@ -507,7 +515,8 @@ footer .box-yt::before{
 	left: -110%;
 	top: 90%;
 }
-footer .box-twitter::before{
+
+footer .box-twitter::before {
 	content: "";
 	position: absolute;
 	width: 120%;
@@ -517,7 +526,8 @@ footer .box-twitter::before{
 	left: -110%;
 	top: 90%;
 }
-footer .box-fb::before{
+
+footer .box-fb::before {
 	content: "";
 	position: absolute;
 	width: 120%;
@@ -528,30 +538,26 @@ footer .box-fb::before{
 	top: 90%;
 }
 
-footer .box:hover::before{
+footer .box:hover::before {
 	animation: aaa 0.7s 1;
 	top: -10%;
-	left: -10%;	
+	left: -10%;
 }
 
-@keyframes aaa{
-	0%{
+@keyframes aaa {
+	0% {
 		left: -110%;
 		top: 90%;
-	}50%{
+	}
+
+	50% {
 		left: 10%;
 		top: -30%;
-	}100%{
+	}
+
+	100% {
 		left: -10%;
 		top: -10%;
 	}
 
 }
-
-
-
-
-
-
-
-
