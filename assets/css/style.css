@@ -13,12 +13,12 @@
 }
 
 .logo img{
-	width: 35%;
+	width: 33%;
 }
 
 .desktop li{
 	display: inline-block;
-	padding: 15px 40px;
+	padding: 15px 38px;
 	letter-spacing: 1px;
 	font-size: 15px;
 	font-family: 'Lato';
@@ -73,8 +73,8 @@
 .btn-hamburger .fa-times {
 	position: fixed;
     right: 15px;
-    top: 14px;
-    font-size: 30px;
+    top: 20px;
+    font-size: 25px;
     color: #ffffff;
     cursor: pointer;
 }
@@ -88,7 +88,7 @@ header{
 	transition: 0.4s;
 }
 
-header#gallery{
+header#galeri, #tentang{
 	background-color: #252549;
 }
 
@@ -266,57 +266,6 @@ section#services p{
 	color: whitesmoke;
 	line-height: 30px;
 }
-
-/*----------The-Team----------*/
-section#the-team{
-	padding: 100px 0 100px 0;
-	background-color: #f1f1f1;
-	text-align: center;
-}
-
-section#the-team .row{
-	overflow: hidden;
-}
-
-section#the-team .card{
-	margin-bottom: 50px;
-    box-shadow: 0 5px 30px -5px #5a4f4f3b;
-    font-family: "Google Sans", sans-serif;
-}
-
-section#the-team img{
-	width: 100%;
-    margin-bottom: 15px;
-}
-
-section#the-team h2{
-	overflow: hidden;
-	display: inline-block;
-	font-size: 30px;
-	margin-bottom: 50px;
-	text-transform: uppercase;
-	font-family: "fredoka one";
-}
-
-section#the-team .tagname{
-	margin-bottom: 30px;
-}
-
-section#the-team .tagname h5{
-	overflow-y: hidden; 
-	font-weight: 600;
-}
-
-section#the-team .title{
-	color: grey;
-}
-
-section#the-team .text{
-	padding: 0 20px 0 20px;
-}
-
-/* SECTION.RECENT-CLIENT */
-
 
 /*----------TESTIMONIALS----------*/
 section#testimonials{
